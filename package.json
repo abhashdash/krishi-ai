@@ -1,0 +1,54 @@
+{
+  "name": "krishiai",
+  "version": "1.0.0",
+  "description": "AI-Based Farmer Query Support and Advisory System - Empowering Indian farmers with AI-driven agricultural solutions",
+  "main": "index.js",
+  "keywords": [
+    "agriculture",
+    "farming",
+    "AI",
+    "query-support",
+    "agricultural-advisory",
+    "farmers",
+    "agritech",
+    "India"
+  ],
+  "author": "Your Name/Organization",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/krishiai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/krishiai/issues"
+  },
+  "homepage": "https://github.com/yourusername/krishiai#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "http-server ./public -p 3000 -c-1",
+    "dev": "http-server ./public -p 3000 -c-1 -o",
+    "build": "echo 'Build script to be implemented'",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write \"src/**/*.{js,html,css}\"",
+    "preview": "http-server ./public -p 8000"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "jest": "^29.0.0",
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ]
+}
