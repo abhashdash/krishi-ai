@@ -4,12 +4,12 @@
 KrishiAI is an innovative AI-powered platform designed to provide instant agricultural support and guidance to farmers. Our system leverages advanced machine learning to deliver personalized advisory on crop diseases, weather patterns, market prices, and best farming practices - available 24/7.
 
 ## Features
-- 🤖 **Instant AI Answers** - Get immediate responses to farming questions powered by advanced AI
-- 📍 **Personalized Advisory** - Customized advice based on location, crop type, and soil conditions
-- 🌍 **Available Anytime, Anywhere** - Access expert guidance 24/7 from anywhere
-- 📊 **Market Intelligence** - Real-time market prices and trends
-- 🌤️ **Weather Integration** - Location-based weather forecasts and farming recommendations
-- 👥 **Community Exchange** - Connect with other farmers and experts
+-  **Instant AI Answers** - Get immediate responses to farming questions powered by advanced AI
+-  **Personalized Advisory** - Customized advice based on location, crop type, and soil conditions
+-  **Available Anytime, Anywhere** - Access expert guidance 24/7 from anywhere
+- **Market Intelligence** - Real-time market prices and trends
+-  **Weather Integration** - Location-based weather forecasts and farming recommendations
+-  **Community Exchange** - Connect with other farmers and experts
 
 ## Tech Stack
 - **Frontend**: HTML5, CSS3, JavaScript ES6+
@@ -153,10 +153,10 @@ npm test
 - Edge 90+
 
 ## Contact & Support
-- 📧 Email: support@krishiai.com
-- 📱 Phone: +91 1800-XXX-XXXX
-- 📍 Location: New Delhi, India
-- 🌐 Website: (To be added)
+-  Email: support@krishiai.com
+-  Phone: +91 1800-XXX-XXXX
+-  Location: New Delhi, India
+-  Website: (To be added)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
