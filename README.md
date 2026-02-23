@@ -1,4 +1,4 @@
-# KrishiAI - AI-Based Farmer Query Support System
+~# KrishiAI - AI-Based Farmer Query Support System
 
 ## Overview
 KrishiAI is an innovative AI-powered platform designed to provide instant agricultural support and guidance to farmers. Our system leverages advanced machine learning to deliver personalized advisory on crop diseases, weather patterns, market prices, and best farming practices - available 24/7.
