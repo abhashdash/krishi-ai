@@ -52,5 +52,15 @@
     }
   }
 
-  window.KrishiAuth = { registerUser, loginWithOTP, logout, getSession };
+  function isLoggedIn() {
+    return getSession() !== null;
+  }
+
+  function requireLogin() {
+    if (!isLoggedIn()) {
+      window.location.href = '../../pages/login/LOGIN.html';
+    }
+  }
+
+  window.KrishiAuth = { registerUser, loginWithOTP, logout, getSession, isLoggedIn, requireLogin };
 })();

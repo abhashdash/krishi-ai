@@ -1,3 +1,8 @@
+// Auth Guard
+if (window.KrishiAuth && !window.KrishiAuth.isLoggedIn()) {
+    window.location.href = '../../pages/login/LOGIN.html';
+}
+
 // DOM Elements
 const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('nav-menu');

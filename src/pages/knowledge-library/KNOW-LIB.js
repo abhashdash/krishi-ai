@@ -1,3 +1,8 @@
+// Auth Guard
+if (window.KrishiAuth && !window.KrishiAuth.isLoggedIn()) {
+    window.location.href = '../../pages/login/LOGIN.html';
+}
+
 // Knowledge Library Page JavaScript
 document.addEventListener('DOMContentLoaded', function() {
     // Knowledge search articles (client-side stub)

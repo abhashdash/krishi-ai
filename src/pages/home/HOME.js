@@ -7,6 +7,9 @@ const langBtn = document.getElementById('lang-btn');
 const langDropdown = document.getElementById('lang-dropdown');
 const selectedLang = document.getElementById('selected-lang');
 
+// Hero buttons
+const heroButtons = document.querySelectorAll('.hero-buttons button');
+
 const farmingImages = [
     'https://media.istockphoto.com/id/1328004520/photo/healthy-young-soybean-crop-in-field-at-dawn.jpg?s=612x612&w=0&k=20&c=XRw20PArfhkh6LLgFrgvycPLm0Uy9y7lu9U7fLqabVY=', // Plowing field
     'https://www.gaiaherbs.com/cdn/shop/articles/35250_WEB_Blog_FallTransition_09223.jpg?v=1664166459&width=900',   // Crop close-up (wheat)
@@ -203,12 +206,19 @@ document.addEventListener('DOMContentLoaded', () => {
 // Login Button Click Handler
 if (loginBtn) {
     loginBtn.addEventListener('click', () => {
-        console.log('Login button clicked');
-        showNotification('Redirecting to login page...', 'info');
-        // Add your login redirect logic here
-        // For example: window.location.href = '../LOGIN/LOGIN.html';
+        window.location.href = '../login/LOGIN.html';
     });
 }
+
+// Hero Buttons Click Handlers
+heroButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const href = button.getAttribute('href');
+        if (href) {
+            window.location.href = href;
+        }
+    });
+});
 
 // Admin Dashboard Visibility (Simulated)
 // In a real application, this would be based on actual authentication
